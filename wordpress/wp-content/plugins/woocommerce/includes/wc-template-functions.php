@@ -2409,7 +2409,7 @@ if ( ! function_exists( 'woocommerce_widget_shopping_cart_proceed_to_checkout' )
 	}
 }
 
-//Shop More Button Add (Starts Here)
+//Shop More Button Add (Starts Here).
 if ( ! function_exists( 'woocommerce_widget_shopping_cart_proceed_to_shop_more' ) ) {
 
     /**
@@ -2417,10 +2417,10 @@ if ( ! function_exists( 'woocommerce_widget_shopping_cart_proceed_to_shop_more' 
      */
     function woocommerce_widget_shopping_cart_proceed_to_shop_more() {
         $wp_button_class = wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '';
-        echo '<a href="' . esc_url( wc_get_checkout_url() ) . '" class="button checkout wc-forward' . esc_attr( $wp_button_class ) . '">' . esc_html__( 'Checkout', 'woocommerce' ) . '</a>';
+        echo '<a href="/shop/" class="button checkout wc-forward' . esc_attr( $wp_button_class ) . '">' . esc_html__( 'Shop More', 'woocommerce' ) . '</a>';
     }
 }
-//Shop More Button Add (Ends Here)
+//Shop More Button Add (Ends Here).
 
 if ( ! function_exists( 'woocommerce_widget_shopping_cart_subtotal' ) ) {
 	/**
