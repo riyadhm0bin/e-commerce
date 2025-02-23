@@ -91,6 +91,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 
 	<?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 
+    <!--This is the place-->
 	<p class="woocommerce-mini-cart__buttons buttons"><?php do_action( 'woocommerce_widget_shopping_cart_buttons' ); ?></p>
 
 	<?php do_action( 'woocommerce_widget_shopping_cart_after_buttons' ); ?>
